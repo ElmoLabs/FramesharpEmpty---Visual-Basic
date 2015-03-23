@@ -1,17 +1,18 @@
-﻿Imports Framesharp.DomainService
+﻿Imports Framesharp.Core
+Imports Framesharp.DomainService
 Imports FramesharpEmpty.DomainService
 Imports FramesharpEmpty.DomainService.Interfaces
 
 Namespace Controllers
 
     Public Class DemonstrationController
-        Inherits Framesharp.Presentation.Web.Mvc.BaseController
+        Inherits Controller
 
         Private ReadOnly _demonstrationDomainService As IDemonstrationDomainService
 
         Public Sub New()
 
-            _demonstrationDomainService = DomainServiceFactory.Get(Of IDemonstrationDomainService)(OperationCallContext)
+            _demonstrationDomainService = DomainServiceFactory.Get(Of IDemonstrationDomainService)(OperationCallContext.Current)
 
         End Sub
 

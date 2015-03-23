@@ -1,10 +1,8 @@
 ﻿Imports System
-Imports Framesharp.Presentation.Web.Mvc.Models
 
 Namespace Models
 
     Public Class Demonstration
-        Inherits ModelBase
 
         Public Shared Widening Operator CType(ByVal model As Models.Demonstration) As Domain.Demonstration
 

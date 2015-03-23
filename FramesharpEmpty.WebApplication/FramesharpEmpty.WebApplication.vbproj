@@ -84,9 +84,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Resources\Framesharp.DomainService.dll</HintPath>
     </Reference>
-    <Reference Include="Framesharp.Persistence">
+    <Reference Include="Framesharp.Data">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Resources\Framesharp.Persistence.dll</HintPath>
+      <HintPath>..\Resources\Framesharp.Data.dll</HintPath>
     </Reference>
     <Reference Include="Framesharp.Presentation.Web">
       <HintPath>..\Resources\Framesharp.Presentation.Web.dll</HintPath>

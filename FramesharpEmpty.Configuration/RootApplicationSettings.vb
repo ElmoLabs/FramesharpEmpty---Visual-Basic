@@ -27,7 +27,6 @@ Public Class RootApplicationSettings
                     {New Framesharp.DependencyInjection.Registry.CoreRegistry()},
                     {New Framesharp.DependencyInjection.Registry.DomainServiceRegistry()},
                     {New Framesharp.DependencyInjection.Registry.RepositoryRegistry()},
-                    {New Framesharp.DependencyInjection.Registry.ServiceModelRegistry()},
                     {New DependencyInjectionRegistry()}
                 }
     End Sub

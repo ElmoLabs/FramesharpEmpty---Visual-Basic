@@ -1,6 +1,6 @@
 ﻿Imports Framesharp.Core.Interfaces
 Imports Framesharp.DomainService
-Imports Framesharp.Persistence.Transaction
+Imports Framesharp.Data.Transaction
 Imports Framesharp.Repository
 Imports FramesharpEmpty.Domain
 Imports FramesharpEmpty.DomainService.Interfaces
