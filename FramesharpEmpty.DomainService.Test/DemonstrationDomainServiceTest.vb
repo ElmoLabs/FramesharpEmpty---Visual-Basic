@@ -1,6 +1,6 @@
 ﻿Imports System
 Imports Framesharp.DomainService
-Imports Framesharp.Persistence.Transaction
+Imports Framesharp.Data.Transaction
 Imports FramesharpEmpty.Configuration
 Imports FramesharpEmpty.Domain
 Imports FramesharpEmpty.DomainService.Interfaces
@@ -23,7 +23,7 @@ Public Class DemonstrationDomainServiceTest
     ''' Creates a new Demonstration record
     ''' </summary>
     <TestMethod()>
-    <TransactionScope(DefaultRollback:=True)>
+    <TransactionScope(DefaultRollback:=False)>
     Public Sub CreateDemonstrationTest()
 
         Dim demonstration As New Demonstration() With
